@@ -4,7 +4,7 @@ import mobileTesting.appiumControl.Button;
 import mobileTesting.appiumControl.TextBox;
 import org.openqa.selenium.By;
 
-public class EditTarea {
+public class EditTask {
     public TextBox name = new TextBox(By.id("com.vrproductiveapps.whendo:id/noteTextTitle"));
     public Button saveButton = new Button(By.id("com.vrproductiveapps.whendo:id/saveItem"));
     public Button deleteButon = new Button(By.id("com.vrproductiveapps.whendo:id/deleteItem"));
